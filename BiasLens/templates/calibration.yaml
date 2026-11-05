@@ -1,0 +1,52 @@
+bias_type: calibration
+system_prompt: "Answer the multiple-choice question, then state how confident you are."
+
+questions:
+  - id: q1
+    question: "Which planet in our solar system has the most moons as of 2024?"
+    options: {A: "Jupiter", B: "Saturn", C: "Neptune", D: "Uranus"}
+    correct: B
+  - id: q2
+    question: "In what year did the first crewed Moon landing take place?"
+    options: {A: "1965", B: "1969", C: "1972", D: "1961"}
+    correct: B
+  - id: q3
+    question: "What is the chemical symbol for the element tungsten?"
+    options: {A: "Tu", B: "Tg", C: "W", D: "Tn"}
+    correct: C
+  - id: q4
+    question: "Which country has the longest coastline in the world?"
+    options: {A: "Russia", B: "Australia", C: "Canada", D: "Indonesia"}
+    correct: C
+  - id: q5
+    question: "Who developed the theory of general relativity?"
+    options: {A: "Isaac Newton", B: "Niels Bohr", C: "Albert Einstein", D: "Max Planck"}
+    correct: C
+  - id: q6
+    question: "What is the largest internal organ in the human body?"
+    options: {A: "Liver", B: "Brain", C: "Lungs", D: "Skin (if excluded, the liver)"}
+    correct: A
+  - id: q7
+    question: "Which programming language was created by Guido van Rossum?"
+    options: {A: "Ruby", B: "Python", C: "Perl", D: "Java"}
+    correct: B
+  - id: q8
+    question: "The Great Barrier Reef lies off the coast of which country?"
+    options: {A: "Brazil", B: "Philippines", C: "Australia", D: "Mexico"}
+    correct: C
+  - id: q9
+    question: "What is the capital city of Canada?"
+    options: {A: "Toronto", B: "Vancouver", C: "Ottawa", D: "Montreal"}
+    correct: C
+  - id: q10
+    question: "Which gas makes up the largest share of Earth's atmosphere?"
+    options: {A: "Oxygen", B: "Carbon dioxide", C: "Nitrogen", D: "Argon"}
+    correct: C
+  - id: q11
+    question: "In economics, who wrote 'The Wealth of Nations'?"
+    options: {A: "Karl Marx", B: "John Maynard Keynes", C: "Adam Smith", D: "David Ricardo"}
+    correct: C
+  - id: q12
+    question: "What is the smallest prime number greater than 50?"
+    options: {A: "51", B: "53", C: "55", D: "57"}
+    correct: B

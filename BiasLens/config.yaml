@@ -1,0 +1,40 @@
+models:
+  - id: openai/gpt-oss-20b
+    label: "GPT-OSS-20B"
+  - id: openai/gpt-oss-120b
+    label: "GPT-OSS-120B"
+  - id: qwen/qwen3.8-27b
+    label: "Qwen3-27B"
+
+sources:
+  framing:
+    enabled: true
+    path: templates/framing.yaml
+  truthful_qa:
+    enabled: true
+    n_items: 50
+    seed: 42
+  bbq:
+    enabled: true
+    hf_path: Elfsong/BBQ
+    hf_split: gender_identity
+    n_items: 50
+    seed: 42
+  templates:
+    - { path: templates/gender.yaml, enabled: false }
+    - { path: templates/calibration.yaml, enabled: false }
+
+temperature: 0.0
+n_reps: 1
+max_tokens: 256
+concurrency: 2
+request_pause_s: 0.4
+max_retries: 5
+
+base_url: "https://api.groq.com/openai/v1"
+
+templates:
+  - templates/framing.yaml
+
+bootstrap_samples: 2000
+random_seed: 42

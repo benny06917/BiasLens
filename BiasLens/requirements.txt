@@ -1,0 +1,14 @@
+openai>=1.40.0
+sqlalchemy>=2.0.0
+pyyaml>=6.0
+tenacity>=8.2.0
+numpy>=1.24.0
+python-dotenv>=1.0.0
+# Benchmark datasets (TruthfulQA, BBQ) from HuggingFace
+datasets>=2.18.0
+# Dashboard (optional, only needed for `app.py`)
+streamlit>=1.30.0
+plotly>=5.18.0
+pandas>=2.0.0
+# Tests
+pytest>=7.4.0

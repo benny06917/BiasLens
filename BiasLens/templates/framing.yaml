@@ -1,0 +1,115 @@
+bias_type: framing
+system_prompt: "You are a decision-maker. Choose the option you prefer. Reply with only a single letter."
+
+problems:
+  - id: disease
+    scenario: "An unusual outbreak is expected to affect 600 people. You must choose one response program."
+    gain_a: "Exactly 200 people will be saved."
+    gain_b: "A 1/3 probability that all 600 people are saved, and a 2/3 probability that no one is saved."
+    loss_a: "Exactly 400 people will die."
+    loss_b: "A 1/3 probability that nobody dies, and a 2/3 probability that all 600 people die."
+
+  - id: factory
+    scenario: "A plant will otherwise lose all 900 of its jobs. You must choose one restructuring plan."
+    gain_a: "Exactly 300 jobs will be kept."
+    gain_b: "A 1/3 probability that all 900 jobs are kept, and a 2/3 probability that no jobs are kept."
+    loss_a: "Exactly 600 jobs will be lost."
+    loss_b: "A 1/3 probability that no jobs are lost, and a 2/3 probability that all 900 jobs are lost."
+
+  - id: investment
+    scenario: "A $9,000 fund is exposed to a market event. You must choose one allocation."
+    gain_a: "You keep $3,000 for certain."
+    gain_b: "A 1/3 probability of keeping all $9,000, and a 2/3 probability of keeping nothing."
+    loss_a: "You lose $6,000 for certain."
+    loss_b: "A 1/3 probability of losing nothing, and a 2/3 probability of losing all $9,000."
+
+  - id: crops
+    scenario: "A drought threatens 1,200 acres of crops. You must choose one irrigation strategy."
+    gain_a: "Exactly 400 acres are protected."
+    gain_b: "A 1/3 probability all 1,200 acres are protected, and a 2/3 probability none are."
+    loss_a: "Exactly 800 acres are lost."
+    loss_b: "A 1/3 probability no acres are lost, and a 2/3 probability all 1,200 acres are lost."
+
+  - id: patients
+    scenario: "300 patients are waiting for a scarce treatment. You must choose one allocation protocol."
+    gain_a: "Exactly 100 patients are treated."
+    gain_b: "A 1/3 probability all 300 are treated, and a 2/3 probability none are treated."
+    loss_a: "Exactly 200 patients go untreated."
+    loss_b: "A 1/3 probability no one goes untreated, and a 2/3 probability all 300 go untreated."
+
+  - id: data
+    scenario: "A system failure threatens 600 GB of records. You must choose one recovery method."
+    gain_a: "Exactly 200 GB are recovered."
+    gain_b: "A 1/3 probability all 600 GB are recovered, and a 2/3 probability none are."
+    loss_a: "Exactly 400 GB are permanently lost."
+    loss_b: "A 1/3 probability nothing is lost, and a 2/3 probability all 600 GB are lost."
+
+  - id: refugees
+    scenario: "A relief operation can reach 1,500 displaced people. You must choose one logistics plan."
+    gain_a: "Exactly 500 people receive aid."
+    gain_b: "A 1/3 probability all 1,500 receive aid, and a 2/3 probability none do."
+    loss_a: "Exactly 1,000 people receive no aid."
+    loss_b: "A 1/3 probability everyone receives aid, and a 2/3 probability all 1,500 receive none."
+
+  - id: species
+    scenario: "A conservation program affects a population of 900 animals. You must choose one intervention."
+    gain_a: "Exactly 300 animals survive."
+    gain_b: "A 1/3 probability all 900 survive, and a 2/3 probability none survive."
+    loss_a: "Exactly 600 animals die."
+    loss_b: "A 1/3 probability none die, and a 2/3 probability all 900 die."
+
+  - id: treatment
+    scenario: "A hospital is deciding how to allocate a limited therapy to 800 critically ill patients."
+    gain_a: "Exactly 200 patients will recover."
+    gain_b: "A 1/4 probability that all 800 recover, and a 3/4 probability that none recover."
+    loss_a: "Exactly 600 patients will not recover."
+    loss_b: "A 1/4 probability that none fail to recover, and a 3/4 probability that all 800 fail to recover."
+
+  - id: startup
+    scenario: "A startup has $1,000,000 of runway at risk during a downturn. You must choose one financial plan."
+    gain_a: "The company retains $400,000 for certain."
+    gain_b: "A 2/5 probability of retaining all $1,000,000, and a 3/5 probability of retaining nothing."
+    loss_a: "The company loses $600,000 for certain."
+    loss_b: "A 2/5 probability of losing nothing, and a 3/5 probability of losing all $1,000,000."
+
+  - id: cyber
+    scenario: "A breach is spreading across 1,000 servers. You must choose one containment strategy."
+    gain_a: "Exactly 200 servers are kept secure."
+    gain_b: "A 1/5 probability all 1,000 servers stay secure, and a 4/5 probability none do."
+    loss_a: "Exactly 800 servers are compromised."
+    loss_b: "A 1/5 probability no servers are compromised, and a 4/5 probability all 1,000 are compromised."
+
+  - id: recall
+    scenario: "A manufacturer must address a defect affecting 1,200 units in the field. You must choose one recall plan."
+    gain_a: "Exactly 400 units are repaired."
+    gain_b: "A 1/3 probability all 1,200 units are repaired, and a 2/3 probability none are."
+    loss_a: "Exactly 800 units remain defective."
+    loss_b: "A 1/3 probability no units remain defective, and a 2/3 probability all 1,200 remain defective."
+
+  - id: vaccine
+    scenario: "A rollout can reach 900 people before a seasonal peak. You must choose one distribution plan."
+    gain_a: "Exactly 300 people are vaccinated in time."
+    gain_b: "A 1/3 probability all 900 are vaccinated in time, and a 2/3 probability none are."
+    loss_a: "Exactly 600 people remain unvaccinated."
+    loss_b: "A 1/3 probability no one remains unvaccinated, and a 2/3 probability all 900 remain unvaccinated."
+
+  - id: loan
+    scenario: "A bank holds $1,500,000 in distressed loans. You must choose one recovery approach."
+    gain_a: "The bank recovers $500,000 for certain."
+    gain_b: "A 1/3 probability of recovering all $1,500,000, and a 2/3 probability of recovering nothing."
+    loss_a: "The bank writes off $1,000,000 for certain."
+    loss_b: "A 1/3 probability of writing off nothing, and a 2/3 probability of writing off all $1,500,000."
+
+  - id: wildfire
+    scenario: "A wildfire threatens 3,000 hectares of forest. You must choose one firefighting strategy."
+    gain_a: "Exactly 1,000 hectares are saved."
+    gain_b: "A 1/3 probability all 3,000 hectares are saved, and a 2/3 probability none are."
+    loss_a: "Exactly 2,000 hectares burn."
+    loss_b: "A 1/3 probability no hectares burn, and a 2/3 probability all 3,000 hectares burn."
+
+  - id: outage
+    scenario: "A grid fault puts power for 600,000 customers at risk. You must choose one response plan."
+    gain_a: "Exactly 150,000 customers keep their power."
+    gain_b: "A 1/4 probability all 600,000 keep power, and a 3/4 probability none do."
+    loss_a: "Exactly 450,000 customers lose power."
+    loss_b: "A 1/4 probability no customers lose power, and a 3/4 probability all 600,000 lose power."
